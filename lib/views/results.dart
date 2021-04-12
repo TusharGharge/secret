@@ -32,7 +32,7 @@ class _ResultsState extends State<Results> {
               Container(
                 padding: EdgeInsets.symmetric(horizontal: 24),
                 child: Text(
-                  "you answered ${widget.correct} answers correctly and ${widget.incorrect} answeres incorrectly",
+                  "Congrates,You have sucessfully completed your conline exmination.\n\n you ${widget.correct} answers correctly and ${widget.incorrect} answeres incorrectly",
                   textAlign: TextAlign.center,
                 ),
               ),

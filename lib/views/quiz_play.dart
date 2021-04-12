@@ -160,7 +160,7 @@ class _QuizPlayState extends State<QuizPlay> {
                       ),
                     ),
             ),
-            FloatingActionContainer(),
+            DragBox(Offset(200.0, 150.0), 'Box One', Colors.blueAccent),
           ],
         ),
         floatingActionButton: FloatingActionButton(
