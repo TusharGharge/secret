@@ -125,10 +125,10 @@ class _VideoDemoState extends State<VideoDemo> {
       Positioned(
         top: 0.0,
         left: 0.0,
-        width: size.width,
-        height: size.height - 100,
+        width: 200,
+        height: 200,
         child: Container(
-          height: size.height - 100,
+          height: 200,
           child: (!cameraController.value.isInitialized)
               ? new Container()
               : AspectRatio(
@@ -139,9 +139,9 @@ class _VideoDemoState extends State<VideoDemo> {
       ),
     );
 
-    if (imgCamera != null) {
-      stackChildrenwidgets.addAll(displayBoxesAroundRecognizedObjects(size));
-    }
+    // if (imgCamera != null) {
+    //   stackChildrenwidgets.addAll(displayBoxesAroundRecognizedObjects(size));
+    // }
 
     return SafeArea(
       child: Scaffold(
