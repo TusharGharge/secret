@@ -17,7 +17,7 @@ class _VideoDemoState extends State<VideoDemo> {
   double imgWidth;
   List recognitionList;
   initCamera() {
-    cameraController = CameraController(cameras[1], ResolutionPreset.medium);
+    cameraController = CameraController(cameras[0], ResolutionPreset.medium);
     cameraController.initialize().then((value) {
       if (!mounted) {
         return;

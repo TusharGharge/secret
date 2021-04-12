@@ -14,9 +14,10 @@ import 'package:user/views/quiz_play.dart';
 import 'package:user/views/results.dart';
 import 'package:user/views/signin.dart';
 import 'package:user/views/signup.dart';
+import './views/floatingContainer.dart';
 
 List<CameraDescription> cameras;
-Future<void> main() async{
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   cameras = await availableCameras();
   runApp(MyApp());
